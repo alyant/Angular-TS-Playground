@@ -1,6 +1,6 @@
 
 <h2> My Heroes </h2>
-<ul class="heroes"> <!-- below is how to create a for loop, onClick event and conditional selector event -->
+<ul class="heroes"> <!-- below is how to create a for-loop, onClick event and conditional selector event -->
     <li *ngFor="let hero of heroes"  
     (click)="onSelect(hero)" 
     [class.selected]="hero === selectedHero"> 

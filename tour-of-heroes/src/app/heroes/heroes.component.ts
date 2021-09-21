@@ -20,7 +20,7 @@ export class HeroesComponent implements OnInit {
   } 
 
   getHeroes():void {
-    this.heroService.getHeroes()
+    this.heroes = this.heroService.getHeroes()
   }
   
   onSelect(hero: Hero): void {
